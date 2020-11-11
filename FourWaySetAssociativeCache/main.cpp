@@ -47,6 +47,7 @@ std::vector<std::vector<int>> lru_bits(target_number_sets , std::vector<int>(4 ,
 /*
     For a given set, In the given implementation LRU bits do not serve as actual bits i.e. (0/1).
     Instead, they keep track of the count since a given way was last used
+    In every iteration of a particular set, all the four bits are updated to reflect the change in count
     Therefore, least lru bit => least recently used and highest => most recently used
 
 
